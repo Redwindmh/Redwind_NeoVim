@@ -1,8 +1,8 @@
 return {
   "bluz71/vim-nightfly-colors",
-   priority = 1000,
-   config = function()
-     vim.cmd([[colorscheme nightfly]])
-     -- vim.g.nightflyTransparent = true
-   end,
+  priority = 1000,
+  config = function()
+    vim.g.nightflyTransparent = true
+    vim.cmd([[colorscheme nightfly]])
+  end,
 }
