@@ -1,6 +1,6 @@
 return {
   "epwalsh/obsidian.nvim",
-  version = "*", -- recommended, use latest release instead of latest commit
+  version = "*",
   lazy = true,
   ft = "markdown",
   -- Replace the above line with this if you only want to load obsidian.nvim for markdown files in your vault:
@@ -11,19 +11,16 @@ return {
   --   "BufNewFile path/to/my-vault/**.md",
   -- },
   dependencies = {
-    -- Required.
     "nvim-lua/plenary.nvim",
-
-    -- see below for full list of optional dependencies 👇
   },
   opts = {
     workspaces = {
       {
-        name = "personal",
+        name = "Tabula_Rasa",
         path = "~/Documents/黒曜岩",
       },
     },
 
-    -- see below for full list of options 👇
+    -- options 👇
   },
 }

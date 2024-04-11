@@ -9,7 +9,7 @@ opt.ignorecase = true
 opt.smartcase = true
 
 --line wrapping
-opt.wrap = false
+opt.wrap = true
 
 --cursor line
 opt.cursorline = true
@@ -30,3 +30,6 @@ opt.splitright = true
 opt.splitbelow = true
 
 opt.iskeyword:append("-")
+
+--obsidian
+opt.conceallevel = 2

@@ -12,3 +12,4 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({ { import = "redwind.plugins" }, { import = "redwind.plugins.lsp" } })
+require("notify").setup({ background_colour = "#000000" })
