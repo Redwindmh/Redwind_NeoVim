@@ -11,5 +11,16 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+-- :command Trm :term
+
 require("lazy").setup({ { import = "redwind.plugins" }, { import = "redwind.plugins.lsp" } })
 require("notify").setup({ background_colour = "#000000" })
+
+-- vim.api.nvim_create_user_command('Term', ':terminal', {})
+-- vim.cmd.Term()
+
+-- vim.api.nvim_create_autocmd("VimEnter", {
+--   callback = function()
+--     vim.cmd("NvimTreeToggle")
+--   end,
+-- })

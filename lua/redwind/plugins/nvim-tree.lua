@@ -17,20 +17,20 @@ return {
       },
 
       renderer = {
-	icons = {
-	  glyphs = {
-	    folder = {
-	      arrow_closed = "→",
-	      arrow_open = "↓↘︎→",
+        icons = {
+          glyphs = {
+            folder = {
+              arrow_closed = "→",
+              arrow_open = "↓↘︎→",
             },
-	  },
-	},
+          },
+        },
       },
       filters = {
-      custom = { ".DS_Store" },
+        custom = { ".DS_Store" },
       },
       git = {
-	ignore = false,
+        ignore = false,
       },
     })
 
