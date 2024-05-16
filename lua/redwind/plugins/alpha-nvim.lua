@@ -33,8 +33,9 @@ return {
     }
 
     dashboard.section.buttons.val = {
-      dashboard.button("e", "󱍅   Create new spell", ":ene <BAR> startinsert <CR>"),
-      dashboard.button("r", "   Recent spells", "<cmd> Telescope oldfiles <CR>"),
+      dashboard.button("n", "󱍅   Create new spell", ":ene <BAR> startinsert <CR>"),
+      dashboard.button("r", "   Recent spells", "<cmd> Telescope oldfiles <CR>"),
+      dashboard.button("f", "󱡄   Find a spell", "<cmd>Telescope find_files<cr>"),
       dashboard.button("c", "   Neovim tinkering", ":e ~/.config/nvim/ <CR>"),
       dashboard.button("t", "   Plant a tree", ":NvimTreeOpen<CR>"),
       dashboard.button("q", "󱠢   Escape", ":qa<CR>"),
