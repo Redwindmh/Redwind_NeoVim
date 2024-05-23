@@ -19,6 +19,9 @@ return {
 
     mason_lspconfig.setup({
       ensure_installed = {
+        "bash",
+        "dockerls",
+        "emmet_language_server",
         "tsserver",
         "html",
         "cssls",

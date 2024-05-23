@@ -24,6 +24,8 @@ return {
         },
         -- ensure these language parsers are installed
         ensure_installed = {
+          "arduino",
+          "bash",
           "json",
           "javascript",
           "typescript",
