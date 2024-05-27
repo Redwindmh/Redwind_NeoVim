@@ -15,6 +15,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({ { import = "redwind.plugins" }, { import = "redwind.plugins.lsp" } })
 require("notify").setup({ background_colour = "#000000" })
+-- require("obsidian").setup({ import = "redwind.plugins.obsidian-nvim" })
 
 -- vim.api.nvim_create_user_command('Term', ':terminal', {})
 -- vim.cmd.Term()

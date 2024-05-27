@@ -16,11 +16,14 @@ return {
   opts = {
     workspaces = {
       {
-        name = "Tabula_Rasa",
+        name = "黒曜岩",
         path = "~/Documents/黒曜岩",
       },
     },
-
-    -- options 👇
+    templates = {
+      folder = "Obsidian/Templates",
+      date_format = "%Y-%m-%d-%a",
+      time_format = "%H:%M",
+    },
   },
 }
