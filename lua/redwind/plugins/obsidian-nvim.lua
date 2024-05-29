@@ -25,5 +25,10 @@ return {
       date_format = "%Y-%m-%d-%a",
       time_format = "%H:%M",
     },
+    daily_notes = {
+      folder = "Obsidian/DiaryOfAMadman",
+      date_format = "%A, %B %d, %Y",
+      template = "madman_template.md"
+    },
   },
 }
