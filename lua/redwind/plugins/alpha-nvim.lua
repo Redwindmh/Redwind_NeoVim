@@ -7,6 +7,8 @@ return {
   config = function()
     local alpha = require("alpha")
     local dashboard = require("alpha.themes.dashboard")
+    math.randomseed(os.time())
+    math.random(); math.random(); math.random();
     -- local dashboard = require("alpha.themes.startify")
 
     dashboard.opts.layout[1].val = 2
@@ -42,7 +44,12 @@ return {
     }
 
     local function footer()
-      return "Add some fun quotes here, maybe?"
+      local quotes = {
+        "\"Any fool can write code that a computer can understand. Good programmers write code that humans can understand.\" ― Martin Fowler",
+        "\"Programming isn't about what you know; it's about what you can figure out.\"― Chris Pine",
+        "\"Every great developer you know got there by solving problems they were unqualified to solve until they actually did it.\" – Patrick McKenzie",
+      }
+      return quotes[math.random(3)]
     end
 
     dashboard.section.footer.val = footer()
