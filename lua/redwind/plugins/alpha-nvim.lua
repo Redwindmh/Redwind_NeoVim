@@ -46,10 +46,11 @@ return {
     local function footer()
       local quotes = {
         "\"Any fool can write code that a computer can understand. Good programmers write code that humans can understand.\" ― Martin Fowler",
-        "\"Programming isn't about what you know; it's about what you can figure out.\"― Chris Pine",
+        "\"Programming isn't about what you know; it's about what you can figure out.\" ― Chris Pine",
         "\"Every great developer you know got there by solving problems they were unqualified to solve until they actually did it.\" – Patrick McKenzie",
+        "\"Set mind to fucking purpose and seize glory!\" – Crixus",
       }
-      return quotes[math.random(3)]
+      return quotes[math.random(#quotes)]
     end
 
     dashboard.section.footer.val = footer()

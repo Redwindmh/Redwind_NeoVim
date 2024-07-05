@@ -82,6 +82,12 @@ return {
       on_attach = on_attach,
     })
 
+    -- configure java server
+    lspconfig["jdtls"].setup({
+      on_attach = lsp_attach,
+      capabilities = lsp_capabilities,
+    })
+
     -- configure typescript server with plugin
     lspconfig["tsserver"].setup({
       capabilities = capabilities,
