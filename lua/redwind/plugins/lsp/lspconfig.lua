@@ -80,18 +80,14 @@ return {
     lspconfig["quick_lint_js"].setup({
       capabilities = capabilities,
       on_attach = on_attach,
-    })
-
-    -- configure java server
-    lspconfig["jdtls"].setup({
-      on_attach = lsp_attach,
-      capabilities = lsp_capabilities,
+      filetypes = { "javascript", "javascriptreact", "javascript.jsx" },
     })
 
     -- configure typescript server with plugin
     lspconfig["tsserver"].setup({
       capabilities = capabilities,
       on_attach = on_attach,
+      filetypes = { "typescript", "typescriptreact", "typescript.jsx" },
     })
 
     -- configure css server
