@@ -21,7 +21,7 @@ return {
       ensure_installed = {
         "dockerls",
         "emmet_language_server",
-        "tsserver",
+        "ts_ls",
         "html",
         "cssls",
         "tailwindcss",

@@ -49,6 +49,10 @@ return {
         "\"Programming isn't about what you know; it's about what you can figure out.\" ― Chris Pine",
         "\"Every great developer you know got there by solving problems they were unqualified to solve until they actually did it.\" – Patrick McKenzie",
         "\"Set mind to fucking purpose and seize glory!\" – Crixus",
+        "\"Ars longa, vita briva, occasio praeceps, experimentum periculosum, iudicium difficile\" – Hippocrates",
+        "\"The greater the contrast, the greater the potential. Great energy only comes from a correspondingly great tension between opposites.\" – Carl Jung",
+        "\"...to boldly go where no one has gone before.\" – Jean-Luc Picard",
+        "\"It always takes longer than you expect, even when you take into account Hofstadter's Law.\" - Hofstadter's Law",
       }
       return quotes[math.random(#quotes)]
     end
