@@ -53,6 +53,7 @@ return {
         "\"The greater the contrast, the greater the potential. Great energy only comes from a correspondingly great tension between opposites.\" – Carl Jung",
         "\"...to boldly go where no one has gone before.\" – Jean-Luc Picard",
         "\"It always takes longer than you expect, even when you take into account Hofstadter's Law.\" - Hofstadter's Law",
+        "\"Those who don't believe in magic will never find it.\" - Roald Dahl",
       }
       return quotes[math.random(#quotes)]
     end
